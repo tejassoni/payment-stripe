@@ -19,7 +19,7 @@ class CheckoutController extends Controller
             'description' => 'Stripe Test Payment',
             'amount' => $amount,
             'currency' => 'INR',
-            'description' => 'Payment From Codehunger',
+            'description' => 'Payment From Developer Test Stripe Demo',
             'payment_method_types' => ['card'],
         ]);
         $intent = $payment_intent->client_secret;
