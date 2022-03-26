@@ -1,0 +1,6 @@
+<?php
+
+return [
+    'STRIPE_KEY' => env('STRIPE_KEY','pk_test_51KYBIqSGxFTuWDwGkRAkSqShdbUxXZXO1qUPS65oHwqWNUra6r1SSHlbtnR8S2TOWbHnqIDEOtD8jcMincYQTIIq00v7gHv3zv'),   
+    'STRIPE_SECRET' => env('STRIPE_SECRET','sk_test_51KYBIqSGxFTuWDwGSEIqAKm88yp8XwLm8vXndW6Tafp2obaY3mvKqIz7uFiVV8n1oPSeXYExw7uJyG1sefcKsVq000ITTRXcLZ'),
+];
